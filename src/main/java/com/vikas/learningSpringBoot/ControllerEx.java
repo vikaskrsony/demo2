@@ -13,6 +13,7 @@ public class ControllerEx {
     @RequestMapping(method = RequestMethod.GET, value = "/hi")
     public ResponseEntity<String> hello() {
         String hello = "Hello from hello method";
+        String hi = "kjdsfg";
         return ResponseEntity.ok(hello);
     }
 }
